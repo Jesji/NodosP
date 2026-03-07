@@ -5,5 +5,5 @@ En este análisis se extraen, transforman y analizan los datos de los catálogos
 
 ### Resultados 
 El número de NodosP activos cada año pasó de 2409 en 2016 a 2585 en 2025, lo que representó un aumento del 7%. El porcentaje de NodosP en cada CCR respecto al total de NodosP del SEN se mantuvo constante en el periodo analizado, como se observa en la Figura 2. En 2025, el CCR Occidental tuvo la mayor cantidad de NodosP, 723 que representan el 28% del total del SEN, mientras que el CCR Baja California Sur tuvo solo 31 NodosP que equivalen al 1.2% del total. 
-<img src='Graphics/NodosP-CCR.html' width="500" alt="descripcion">
+<img src='Graphics/NodosP-CCR.png' width="500" alt="descripcion">
 
