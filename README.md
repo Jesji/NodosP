@@ -1,6 +1,4 @@
-# NodosP
-El Sistema Eléctrico Nacional (SEN) se extiende por todo el territorio de la república mexicana. Está conformado por 9 Centros de Control Regional (CCR), que a su vez se agrupan en 4 sistemas eléctricos [citar prodesen 2024, DOF]:
-•	El sistema de Mulegé, que comprende una red aislada en el municipio de Mulegé, Baja California Sur y que no corresponde a ninguna CCR. 
-•	El sistema eléctrico de Baja California Sur, que corresponde a la CCR BCS y es un sistema aislado que abarca el resto de los municipios del estado.
-•	El sistema eléctrico de Baja California que contempla los municipios de este estado y corresponde al CCR BCA, se encuentra aislado de los sistemas BCS y de Mulegé, pero tiene conexión con el sistema eléctrico de EEUU.
-•	El Sistema Interconectado Nacional (SIN) que corresponde al resto de estados del país y se conforma por 7 CCR: Noroeste, Norte, Noreste, Occidental, Central, Oriental y Peninsular. No se encuentra comunicado con el resto de los sistemas eléctricos del SEN pero tiene líneas de conexión con los sistemas eléctricos de EEUU, Guatemala y Belice. 
+# Análisis NodosP
+Los NodosP son puntos físicos de inyección y retiro de energía eléctrica en la red nacional, en ellos se calcula el precio de la energía para las liquidaciones en el Mercado Eléctrico Mayorista (MEM). El CENANCE reporta el catálogo de NodosP activos en el sitio del Sistema de Información del Mercado, donde se pueden consultar en formato .xlsx con una periodicidad mensual (https://www.cenace.gob.mx/Paginas/SIM/NodosP.aspx).
+
+En este análisis se extraen, transforman y analizan los datos de los catálogos de NodosP publicados por el CENACE desde diciembre de 2016 hasta diciembre de 2025. Se cuantifica el número de NodosP que estuvieron activos cada año, en cada CCR y por nivel de tensión para tener un panorama de como ha cambiado la distribución de NodosP en este periodo de tiempo. Además, se analiza la ubicación de estos NodosP en el mapa y como esto se relaciona con la instalación de centrales de generación eléctrica o la presencia de industrias con alto consumo de electricidad. 
