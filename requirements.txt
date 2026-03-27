@@ -1,0 +1,10 @@
+pandas==2.2.2
+numpy==1.26.4
+geopandas
+matplotlib
+plotly
+kaleido
+selenium
+openpyxl
+ipykernel
+pyarrow
